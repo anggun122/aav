@@ -51,7 +51,7 @@ body {
   .wrapper {
     height: 200px;
     width: 300px;
-    background-color: #E66A80;
+    background-color: #ADD8E6;
     position: relative;
     display: flex;
     justify-content: center;
@@ -93,7 +93,7 @@ body {
     border-top: 100px solid transparent;
     border-right: 150px solid #ADD8E6; /* biru muda */
     border-bottom: 100px solid #ADD8E6; /* biru muda */
-    border-left: 150px solid #9ACDEB; /* biru muda agak lebih gelap untuk variasi */
+    border-left: 150px solid #ADD8E6; /* biru muda */
     z-index: 3;
 }
 
