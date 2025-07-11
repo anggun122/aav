@@ -30,20 +30,24 @@ body {
     text-align: center;
     font-weight: bold;
     animation: pulseText 1.5s infinite alternate ease-in-out 3s;
+  }  
+ @keyframes pulseText {
+  0% {
+    text-shadow: 
+      0 0 5px #87CEEB88, 
+      0 0 10px #87CEEB66, 
+      0 0 15px #87CEEB44;
+    transform: translate(-50%, -50%) scale(1);
   }
-  
-  
-  @keyframes pulseText {
-    0% {
-      text-shadow: 0 0 5px #ffffff88, 0 0 10px #ffffff66, 0 0 15px #ffffff44;
-      transform: translate(-50%, -50%) scale(1);
-    }
-    100% {
-      text-shadow: 0 0 8px #ffffffaa, 0 0 15px #ffffff88, 0 0 20px #ffffff66;
-      transform: translate(-50%, -50%) scale(1.05);
-    }
+  100% {
+    text-shadow: 
+      0 0 8px #87CEEBaa, 
+      0 0 15px #87CEEB88, 
+      0 0 20px #87CEEB66;
+    transform: translate(-50%, -50%) scale(1.05);
   }
-  
+}
+
   .wrapper {
     height: 200px;
     width: 300px;
