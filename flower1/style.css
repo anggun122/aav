@@ -91,9 +91,9 @@ body {
     top: 0;
     left: 0;
     border-top: 100px solid transparent;
-    border-right: 150px solid #FFD3DA;
-    border-bottom: 100px solid #FFD3DA;
-    border-left: 150px solid #FFC0CB;
+    border-right: 150px solid #ADD8E6; /* biru muda */
+    border-bottom: 100px solid #ADD8E6; /* biru muda */
+    border-left: 150px solid #9ACDEB; /* biru muda agak lebih gelap untuk variasi */
     z-index: 3;
 }
 
