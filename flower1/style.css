@@ -78,8 +78,10 @@ body {
     z-index: 3;
 }
 
-.lid.two {
-    display: none;
+lid.two {
+    border-top: 100px solid #E66A80;
+    transform: rotateX(90deg);
+    z-index: 1;
 }
 
 .envelope {
