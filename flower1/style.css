@@ -73,12 +73,12 @@ body {
 }
 
 .lid.one {
-    border-top: 100px solid #ADD8E6; /* biru muda */
+    border-top: 100px solid #F28DA8;
     transform: rotateX(0deg);
     z-index: 3;
 }
 
-lid.two {
+.lid.two {
     border-top: 100px solid #E66A80;
     transform: rotateX(90deg);
     z-index: 1;
