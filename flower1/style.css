@@ -74,7 +74,7 @@ body {
 }
 
 .lid.one {
-    border-top: 100px solid #F28DA8;
+    border-top: 100px solid #082B59;
     transform: rotateX(0deg);
     z-index: 3;
 }
