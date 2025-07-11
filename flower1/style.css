@@ -60,26 +60,26 @@ body {
 }
 
 .lid {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-right: 150px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-left: 150px solid transparent;
-    transform-origin: top;
-    transition: transform 0.4s ease-in-out;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-right: 150px solid transparent;
+  border-bottom: 100px solid #ADD8E6; /* biru muda */
+  border-left: 150px solid transparent;
+  transform-origin: top;
+  transition: transform 0.4s ease-in-out;
 }
 
 .lid.one {
-    border-top: 100px solid #F28DA8;
+    border-top: 100px solid #ADD8E6; /* biru muda */
     transform: rotateX(0deg);
     z-index: 3;
 }
 
 .lid.two {
-    border-top: 100px solid #E66A80;
+    border-top: 100px solid #9ACDEB; /* biru muda agak lebih gelap */
     transform: rotateX(90deg);
     z-index: 1;
 }
