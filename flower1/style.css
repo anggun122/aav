@@ -23,13 +23,13 @@ body {
 .text {
     z-index: 999;
     position: absolute;
-    color: white;
+    color: #87CEEB; /* Sky Blue */
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-weight: bold;
-    animation:  pulseText 1.5s infinite alternate ease-in-out 3s;
+    animation: pulseText 1.5s infinite alternate ease-in-out 3s;
   }
   
   
