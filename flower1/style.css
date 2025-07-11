@@ -61,15 +61,15 @@ body {
 
 .lid {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  border-right: 150px solid transparent;
-  border-bottom: 100px solid #ADD8E6; /* biru muda */
-  border-left: 150px solid transparent;
-  transform-origin: top;
-  transition: transform 0.4s ease-in-out;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-right: 150px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 150px solid transparent;
+    transform-origin: top;
+    transition: transform 0.4s ease-in-out;
 }
 
 .lid.one {
