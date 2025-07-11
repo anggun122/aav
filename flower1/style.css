@@ -48,10 +48,10 @@ body {
   }
 }
 
-  .wrapper {
+   .wrapper {
     height: 200px;
     width: 300px;
-    background-color: #ADD8E6;
+    background-color: #E66A80;
     position: relative;
     display: flex;
     justify-content: center;
